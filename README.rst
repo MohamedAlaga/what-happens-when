@@ -29,7 +29,7 @@ The "g" key is pressed
 ----------------------
 The following sections explain the physical keyboard actions
 and the OS interrupts. When you press the key "g" the browser receives the
-event and the auto-complete functions kick in.
+event and the auto-complete functions kick in.This event is handled by the browser's event listener, which detects the keypress and triggers the corresponding functions. The character "g" is then displayed in the browser's URL bar.
 Depending on your browser's algorithm and if you are in
 private/incognito mode or not various suggestions will be presented
 to you in the dropdown below the URL bar. Most of these algorithms sort
